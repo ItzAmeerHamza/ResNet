@@ -8,7 +8,7 @@ Numerous experiments have verified that deep convolutional neural net- works sig
 
 This research shows that residual learning framework successfully solves the degradation problem and outperforms the original ‘plain’ deep networks in two ways. Deep residual nets not only optimizes easier but also signif- icantly increases accuracy over plain deep networks. This phenomenon is proven throughout the CIFAR-10 set, and ImageNet dataset. In addition, it also won 1st places on various competitions both on vision and non-vision tasks.
 
-<img align='center' src="figure/Residual.png" height="300"/>
+<img align="center" src="figure/Residual.png" height="300"/>
 
 ### 2. Deep Residual Learning 
 
@@ -24,5 +24,5 @@ The plus x denotes the short connection of the identity mapping. This map- ping 
 
 The base network architecture is inspired from VGG nets. One notable difference is that the residual model has much less filters and complexity. Figure 2 on the right shows the VGG net, 34-layer plain, and 34-layer resid- ual, respectively. The input image is randomly sampled from range [256, 480]. Then, it is randomly cropped into 224x224 image. Batch Normalization is implemented right after each convolution and before activation. Mini batch size of 256 is used along with SGD. Total of 60 ∗ 104 iterations are trained, and learning rate starts from 0.1 and drops by 10 when progress is slow.
 
-<img align='center' src="figure/model.png" height="1000"/>
+<img align="center" src="figure/model.png" height="1000"/>
 
