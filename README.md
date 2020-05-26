@@ -12,7 +12,7 @@ This research shows that residual learning framework successfully solves the deg
 <img src="figure/Residual.png" height="300">
 </p>
 
-## 2. Deep Residual Learning 
+### 2. Deep Residual Learning 
 
 **Residual Learning**
 
